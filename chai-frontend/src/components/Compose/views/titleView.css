@@ -1,0 +1,39 @@
+.titleView{
+    margin-top: -60px;
+}
+.titleView .bookView {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -40px;
+
+    transform: scale(0.34) rotateX(0deg) translateX(0px);
+
+    transition: transform 0.8s;
+}
+
+.titleView .bookView:hover{
+    transform: scale(0.3) rotateX(40deg) translateX(80px);
+}
+
+.titleView .title{
+    font-family: Laila;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 19.1667px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.titleView .divider{
+    position: relative;
+    width: 28px;
+    height: 1.6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+
+    border-radius: 1.6px;
+    background: #493026;
+}
