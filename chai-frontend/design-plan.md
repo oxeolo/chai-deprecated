@@ -42,3 +42,22 @@ Chai Frontend Design Plan
 11. StatusView
 12. LogoutView
 
+### Actions
+1. Select Book
+2. Update Book
+3. Save Book
+4. Close
+
+
+### Reducers
+
+#### books
+{
+    store = {
+        id: {
+            text: string,
+            color: string,
+            name: string
+        }
+    }
+}

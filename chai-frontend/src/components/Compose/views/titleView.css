@@ -1,18 +1,10 @@
 .titleView{
-    margin-top: -60px;
+    margin-top: -150px;
 }
 .titleView .bookView {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -40px;
-
-    transform: scale(0.34) rotateX(0deg) translateX(0px);
-
-    transition: transform 0.8s;
-}
-
-.titleView .bookView:hover{
-    transform: scale(0.3) rotateX(40deg) translateX(80px);
+    margin-bottom: 20px;
 }
 
 .titleView .title{

@@ -5,13 +5,17 @@ import ComposeContainer from '../../components/Compose/containers/ComposeContain
 import StatusContainer from '../../components/Compose/containers/StatusContainer';
 
 
-const ComposePage = () => (
-    <div className = 'composePage'>
-        <TitleView
-            title = {'Lorem Ipsum'}
-        />
-        <ComposeContainer/>
-        <StatusContainer/>
-    </div>
-)
+const ComposePage = ({books, match}) => {
+    const book = books[match.params.id];
+    return(
+        <div className = 'composePage'>
+            <TitleView
+                title = {book.title}
+                color = {book.color}
+            />
+            <ComposeContainer/>
+            <StatusContainer/>
+        </div>
+    )
+}
 export default ComposePage;
